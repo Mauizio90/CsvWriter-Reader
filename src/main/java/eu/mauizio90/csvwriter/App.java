@@ -19,7 +19,7 @@ public class App {
         
 
         
-        ObjectConverter.convert(users);
+        Converter.convert(users);
         CsvReader ciao = new CsvReader();
         ciao.readCsv();
         

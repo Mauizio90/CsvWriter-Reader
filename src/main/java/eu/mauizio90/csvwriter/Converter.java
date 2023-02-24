@@ -7,7 +7,7 @@ import java.io.IOException;
  *
  * @author mauiz
  */
-public class ObjectConverter {
+public class Converter {
     public static void convert(User[] array) throws IOException{
         FileWriter writer = new FileWriter("C:\\Users\\mauiz\\Desktop\\Corso Java\\CsvWriter\\csv.csv", true);
         for (User user : array) {
